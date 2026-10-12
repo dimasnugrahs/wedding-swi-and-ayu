@@ -39,11 +39,11 @@ const FooterComponent = () => {
       {/* BACKGROUND IMAGE & OVERLAY (Direct from /public/images/) */}
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
         <motion.img
-          src="/images/wedding-agung-and-riska-footer.webp"
+          src="/images/wedding-swi-and-ayu-view.webp"
           alt="Groom and Bride Footer Background"
           loading="lazy"
           decoding="async"
-          className="w-full h-full object-cover object-center"
+          className="w-full h-full object-cover object-[50%_65%]"
           initial={{ scale: 1.15, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1 }}
           viewport={viewportConfigImg}
@@ -74,16 +74,15 @@ const FooterComponent = () => {
         {/* 2. PARAGRAF UCAPAN UTAMA */}
         <motion.div variants={textFadeIn} className="w-full">
           <p className="text-sm sm:text-sm md:text-base font-light text-zinc-400 leading-relaxed">
-            Merupakan suatu kebahagiaan dan kehormatan bagi kami, apabila
-            Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada
-            kami.
+            Suatu kebanggaan dan kebahagiaan bagi kami dapat berbagi momen
+            istimewa ini bersama Bapak/Ibu/Saudara/i sekalian.
           </p>
         </motion.div>
 
         {/* 3. PARAGRAF PENUTUP & GARIS PEMBATAS */}
         <motion.div variants={textFadeIn} className="w-full">
           <p className="text-xs md:text-sm font-light text-zinc-400 italic">
-            Atas kehadiran dan doa restunya kami ucapkan terima kasih.
+            Dari lubuk hati yang paling dalam, kami ucapkan terima kasih atas kedatangan dan doa kasihnya.
           </p>
           <div className="h-px bg-linear-to-r from-transparent via-zinc-700/80 to-transparent my-4 md:my-6 w-full" />
         </motion.div>
@@ -97,7 +96,7 @@ const FooterComponent = () => {
         variants={containerVariants}
         className="relative z-10 w-full text-right md:text-center text-[10px] uppercase tracking-[0.25em] text-zinc-500 font-light"
       >
-        <motion.p variants={textFadeIn}>AGUNG & RISKA • 2026</motion.p>
+        <motion.p variants={textFadeIn}>SWI & AYU • 2026</motion.p>
       </motion.div>
     </footer>
   );

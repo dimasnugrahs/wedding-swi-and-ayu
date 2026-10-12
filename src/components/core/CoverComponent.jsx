@@ -120,9 +120,9 @@ const CoverComponent = ({
             {/* Background Image yang sudah ter-load */}
             <div className="absolute inset-0 z-0 overflow-hidden">
               <img
-                src="/images/wedding-swi-and-ayu.webp"
+                src="/images/wedding-swi-and-ayu-view.webp"
                 alt="Cover Prewedding"
-                className="w-full h-full object-cover object-center"
+                className="w-full h-full object-cover object-[50%_65%]"
               />
               {/* Overlay Gelap Aksen Premium */}
               <div className="absolute inset-0 bg-black/40" />

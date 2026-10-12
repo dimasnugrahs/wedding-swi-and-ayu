@@ -40,12 +40,11 @@ const LocationComponent = () => {
     // },
     {
       title: "Resepsi",
-      date: "Rabu, 21 Oktober 2026",
-      time: "14.00 WITA - Selesai",
+      date: "Jumat, 16 Oktober 2026",
+      time: "12.00 WITA - Selesai",
       location: "Rumah Mempelai Pria",
-      address:
-        "Jl. Sabda Palon Gg. I No. 4, Dangin Tukadaya, Kec. Jembrana, Kabupaten Jembrana, Bali",
-      mapsUrl: "https://maps.app.goo.gl/TMq2C8QSXgUx6f618?g_st=aw",
+      address: "Br. Panca Warga Gang Sandat No.3, Mengwitani, Mengwi, Badung",
+      mapsUrl: "https://maps.app.goo.gl/b6EhWoEG9M4cxFmD7",
     },
   ];
 
@@ -56,7 +55,7 @@ const LocationComponent = () => {
         <div
           className="w-full h-full bg-fixed bg-cover bg-center"
           style={{
-            backgroundImage: `url('/images/wedding-agung-and-riska-location.webp')`,
+            backgroundImage: `url('/images/wedding-swi-and-ayu.webp')`,
           }}
         />
         <div className="absolute inset-0 bg-linear-to-b from-black/90 via-black/85 to-black/90" />
@@ -72,7 +71,7 @@ const LocationComponent = () => {
       >
         {/* Header Section */}
         <motion.div variants={textFadeIn} className="w-full space-y-3">
-          <h2 className="text-2xl md:text-3xl text-white tracking-wide font-normal pt-1">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-angele text-amber-300/90 font-normal tracking-wide leading-tight">
             Save The Date
           </h2>
           <div className="h-px bg-zinc-700/80 w-full my-4" />
@@ -80,12 +79,12 @@ const LocationComponent = () => {
 
         {/* Teks Pembukaan */}
         <motion.div variants={textFadeIn} className="w-full">
-          <p className="leading-relaxed font-light text-zinc-300 text-sm md:text-sm">
-            Atas Asung Kerta Wara Nugraha Ida Sang Hyang Widhi Wasa/Tuhan Yang
-            Maha Esa, kami bermaksud mengundang Bapak/Ibu/Saudara/i untuk
-            berkenan hadir serta memberikan doa restu pada acara Pawiwahan
-            (Pernikahan) dan Upacara Mepandes (Potong Gigi) yang akan kami
-            selenggarakan pada:
+          <p className="leading-relaxed font-light text-zinc-300 text-sm sm:text-sm md:text-base">
+            Atas wara nugraha dan asung kertha wara nugraha Ida Sang Hyang Widhi
+            Wasa/Tuhan Yang Maha Esa, kami bermaksud mengundang
+            Bapak/Ibu/Saudari/i untuk berkenan hadir dan memberikan doa restu
+            pada Upacara Pawiwahan (Pernikahan) serta Mepandes (Potong Gigi)
+            yang akan dilaksanakan pada:
           </p>
           <div className="h-px bg-zinc-800/80 w-full my-6" />
         </motion.div>
@@ -94,11 +93,11 @@ const LocationComponent = () => {
         <div className="w-full space-y-8">
           {events.map((event, index) => (
             <motion.div key={index} variants={textFadeIn} className="space-y-3">
-              <h3 className="text-lg md:text-xl font-angele text-amber-200">
+              <h3 className="text-xl md:text-2xl font-angele text-amber-200">
                 {event.title}
               </h3>
 
-              <div className="space-y-1 text-sm md:text-sm text-zinc-300 font-light">
+              <div className="space-y-1 text-sm sm:text-sm md:text-base text-zinc-300 font-light">
                 <p className="font-medium text-zinc-200">{event.date}</p>
                 <p>{event.time}</p>
                 <p className="pt-1 text-zinc-400">{event.address}</p>
@@ -137,13 +136,13 @@ const LocationComponent = () => {
 
         {/* Teks Penutup */}
         <motion.div variants={textFadeIn} className="w-full space-y-2 pt-2">
-          <p className="leading-relaxed font-light text-zinc-300 text-sm md:text-sm">
-            Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila
-            Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu serta
-            turut berbagi kebahagiaan bersama kami.
+          <p className="leading-relaxed font-light text-zinc-300 text-sm sm:text-sm md:text-base">
+            Kehadiran serta doa restu dari Bapak/Ibu/Saudara/i akan melengkapi
+            kebahagiaan dan kehangatan dalam momen istimewa kami.
           </p>
           <p className="font-light text-zinc-400 italic text-sm md:text-sm">
-            Atas kehadiran dan doa restunya, kami ucapkan terima kasih.
+            Atas perhatian, kehadiran, dan doa kasihnya, kami menyampaikan
+            ucapan terima kasih yang tulus.
           </p>
         </motion.div>
       </motion.div>

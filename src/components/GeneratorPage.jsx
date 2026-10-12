@@ -19,7 +19,7 @@ const GeneratorPage = () => {
   // Template Kalimat Undangan WhatsApp
   const messageTemplate = `Om Swastyastu
 
-Atas Asung Kertha Wara Nugraha Ida Sang Hyang Widhi Wasa, kami bermaksud mengundang Bapak/Ibu/Saudara/i untuk hadir serta memberikan doa restu pada acara pernikahan kami.
+Atas Asung Kertha Wara Nugraha Ida Sang Hyang Widhi Wasa, kami bermaksud mengundang Bapak/Ibu/Saudara/i untuk hadir serta memberikan doa restu pada acara Pawiwahan (Pernikahan) dan Mepandes (Potong Gigi) kami.
   
 Tanpa mengurangi rasa hormat, perkenankan kami mengundang Bapak/Ibu/Saudara/i:
 *${guestName.trim() || "[Nama Tamu]"}*
@@ -27,7 +27,7 @@ Tanpa mengurangi rasa hormat, perkenankan kami mengundang Bapak/Ibu/Saudara/i:
 Untuk melihat informasi lengkap mengenai rangkaian acara melalui undangan digital berikut:
 ${invitationLink}
   
-Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu.
+Kehadiran serta doa restu dari Bapak/Ibu/Saudara/i akan melengkapi kebahagiaan dan kehangatan dalam momen istimewa kami.
   
 Atas perhatian, kehadiran, serta doa restunya, kami ucapkan terima kasih.
   

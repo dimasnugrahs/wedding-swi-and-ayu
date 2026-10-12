@@ -52,8 +52,8 @@ const WishComponent = () => {
           variants={fadeInVariant}
           className="text-amber-100 font-serif italic text-lg sm:text-xl md:text-2xl leading-relaxed tracking-wide px-2"
         >
-          "Ihaiva stam ma vi yaustam, visvam ayur vyasnutam. Krindantau putrair
-          naptrbhih, Modamanau sve grhe."
+          "Ihaiva stām mā vi yauṣtaṁ, viśvām āyur vy aśnutam. krīḍantau putrair
+          napτṛbhiḥ, modamānau sve gṛhe."
         </motion.p>
 
         {/* Garis Pembatas Tipis */}
@@ -66,9 +66,9 @@ const WishComponent = () => {
           variants={fadeInVariant}
           className="text-zinc-300 font-light text-sm sm:text-sm md:text-base max-w-xl mx-auto leading-relaxed"
         >
-          Wahai pasangan suami-istri, semoga kalian tetap bersatu dan tidak
-          pernah terpisahkan. Semoga kalian mencapai hidup penuh kebahagiaan,
-          tinggal di rumah yang penuh kegembiraan bersama seluruh keturunanmu.
+          Tinggallah di sini bersama-sama, jangan pernah terpisahkan, penuhilah
+          seluruh sisa umurmu bersama-sama, berbahagia bersama anak-anak dan
+          cucu-cucumu, penuh sukacita di dalam rumahmu sendiri.
         </motion.p>
 
         {/* Sumber Kitab Suci */}

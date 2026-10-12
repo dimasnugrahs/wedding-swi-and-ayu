@@ -29,7 +29,7 @@ const viewportConfig = {
   amount: 0.3,
 };
 
-const CountdownComponent = ({ targetDate = "2026-10-21T13:00:00" }) => {
+const CountdownComponent = ({ targetDate = "2026-10-16T12:00:00" }) => {
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
     hours: 0,

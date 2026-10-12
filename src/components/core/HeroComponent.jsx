@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 // Default images mengarah langsung ke folder public/images/
 const DEFAULT_SLIDER_IMAGES = [
   {
-    src: "/images/wedding-swi-and-ayu.webp",
+    src: "/images/wedding-swi-and-ayu-view.webp",
     alt: "Foto Prewedding Swi dan Ayu",
   },
 ];
@@ -46,7 +46,7 @@ const HeroComponent = ({
                 fetchPriority={isFirstImage ? "high" : "auto"}
                 loading={isFirstImage ? "eager" : "lazy"}
                 decoding="async"
-                className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ease-in-out ${
+                className={`absolute inset-0 w-full h-full object-cover object-[50%_65%] transition-opacity duration-1000 ease-in-out ${
                   isActive ? "opacity-100" : "opacity-0"
                 }`}
               />

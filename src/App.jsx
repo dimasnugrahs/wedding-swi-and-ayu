@@ -12,9 +12,7 @@ import { AnimatePresence } from "motion/react";
 import Cover from "./components/core/CoverComponent";
 import Hero from "./components/core/HeroComponent";
 
-const GeneratorPage = lazy(
-  () => import("./components/GeneratorPage.jsx"),
-);
+const GeneratorPage = lazy(() => import("./components/GeneratorPage.jsx"));
 
 // 2. Section Components (Lazy Load / Dimuat Asinkron Berdasarkan Path Baru)
 const WishSection = lazy(
@@ -31,12 +29,6 @@ const LocationComponent = lazy(
 );
 const CountdownComponent = lazy(
   () => import("./components/sections/CountdownComponent.jsx"),
-);
-const Gallery = lazy(
-  () => import("./components/sections/GalleryComponent.jsx"),
-);
-const AccountNumber = lazy(
-  () => import("./components/sections/AccountNumberComponent.jsx"),
 );
 const Footer = lazy(() => import("./components/sections/FooterComponent.jsx"));
 
