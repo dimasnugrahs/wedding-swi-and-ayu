@@ -103,7 +103,7 @@ const CoverComponent = ({
             className="absolute inset-0 flex items-center justify-center p-6 bg-black z-20"
           >
             <h1 className="text-xs md:text-sm tracking-[0.4em] uppercase text-zinc-300 font-light font-serif">
-              Agung & Riska
+              Swi & Ayu
             </h1>
           </motion.div>
         )}
