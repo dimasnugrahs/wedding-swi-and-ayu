@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 
-const BASE_URL = "https://wedding-agung-and-riska.my.id";
+const BASE_URL = "https://www.wedding-swi-and-ayu.my.id";
 
 const GeneratorPage = () => {
   const [guestName, setGuestName] = useState("");
