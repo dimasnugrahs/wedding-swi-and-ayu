@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Angele";
+  src: url("../fonts/angele-regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Angele";
+  src: url("../fonts/angele-italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Angele";
+  src: url("../fonts/angele-bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Angele";
+  src: url("../public/fonts/angele-bolditalic.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@theme {
+  --font-display: "Bricolage Grotesque", Arial, sans-serif;
+  --font-lobster: "Lobster Two", Arial, sans-serif;
+
+  --font-angele: "Angele", Arial, sans-serif;
+
+  --color-wedding-50: #fdfce9;
+  --color-wedding-100: #fcfac5;
+  --color-wedding-200: #fbf38d;
+  --color-wedding-300: #f8e64c;
+  --color-wedding-400: #f3d31c;
+  --color-wedding-500: #e3ba0f;
+  --color-wedding-600: #c6930a;
+  --color-wedding-700: #9c690c;
+  --color-wedding-800: #815312;
+  --color-wedding-900: #6e4415;
+  --color-wedding-950: #402308;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+
+  font-family: var(--font-display);
+  color: var(--color-company-950);
+}
