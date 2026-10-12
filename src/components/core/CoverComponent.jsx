@@ -53,7 +53,7 @@ const CoverComponent = ({
     >
       {/* Hidden/Preloaded Image Tag untuk memicu onLoad */}
       <img
-        src="/images/wedding-agung-and-riska-cover.webp"
+        src="/images/wedding-swi-and-ayu.webp"
         alt="Preload Cover"
         fetchPriority="high"
         decoding="async"
@@ -120,7 +120,7 @@ const CoverComponent = ({
             {/* Background Image yang sudah ter-load */}
             <div className="absolute inset-0 z-0 overflow-hidden">
               <img
-                src="/images/wedding-agung-and-riska-cover.webp"
+                src="/images/wedding-swi-and-ayu.webp"
                 alt="Cover Prewedding"
                 className="w-full h-full object-cover object-center"
               />
