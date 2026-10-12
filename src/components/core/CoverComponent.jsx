@@ -92,7 +92,7 @@ const CoverComponent = ({
           </motion.div>
         )}
 
-        {/* PHASE 2: "Agung & Riska" Intro */}
+        {/* PHASE 2: Intro */}
         {animationPhase === "names_intro" && (
           <motion.div
             key="names_intro"
@@ -139,7 +139,7 @@ const CoverComponent = ({
                 THE WEDDING OF
               </div>
               <h1 className="font-lobster font-light text-4xl md:text-7xl bg-clip-text text-white tracking-wide mt-2">
-                Agung & Riska
+                 Swi & Ayu
               </h1>
             </motion.div>
 

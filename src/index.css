@@ -40,17 +40,17 @@
 
   --font-angele: "Angele", Arial, sans-serif;
 
-  --color-wedding-50: #fdfce9;
-  --color-wedding-100: #fcfac5;
-  --color-wedding-200: #fbf38d;
-  --color-wedding-300: #f8e64c;
-  --color-wedding-400: #f3d31c;
-  --color-wedding-500: #e3ba0f;
-  --color-wedding-600: #c6930a;
-  --color-wedding-700: #9c690c;
-  --color-wedding-800: #815312;
-  --color-wedding-900: #6e4415;
-  --color-wedding-950: #402308;
+  --color-wedding-50: #e9f8ff;
+  --color-wedding-100: #ceeeff;
+  --color-wedding-200: #a7e3ff;
+  --color-wedding-300: #6bd3ff;
+  --color-wedding-400: #26baff;
+  --color-wedding-500: #009cff;
+  --color-wedding-600: #008bff;
+  --color-wedding-700: #007eff;
+  --color-wedding-800: #006ce6;
+  --color-wedding-900: #0058b3;
+  --color-wedding-950: #003f88;
 }
 
 body {
