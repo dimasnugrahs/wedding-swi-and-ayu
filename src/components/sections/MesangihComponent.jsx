@@ -33,12 +33,27 @@ const MesangihComponents = ({
   candidates = [
     {
       id: 1,
-      name: "I Gusti Agung Putu Widiana Putra",
+      name: "I Nyoman Suwipayana",
       role: "Putra Pertama",
     },
     {
       id: 2,
-      name: "I Gusti Agung Made Widhi Adnyana Putra",
+      name: "Ni Made Nindi Apriani",
+      role: "Putra Kedua",
+    },
+    {
+      id: 3,
+      name: "Ni Komang Nada Arnaya",
+      role: "Putra Kedua",
+    },
+    {
+      id: 4,
+      name: "I Kadek Adi Pramana",
+      role: "Putra Kedua",
+    },
+    {
+      id: 5,
+      name: "I Made Ricky Kurniawan",
       role: "Putra Kedua",
     },
   ],

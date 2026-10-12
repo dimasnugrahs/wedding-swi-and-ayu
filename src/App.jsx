@@ -99,7 +99,7 @@ const App = () => {
   const handleOpenInvitation = () => {
     // Memuat musik dari folder public/music/ secara streaming (tanpa membebani bundle JS)
     if (!audioRef.current) {
-      audioRef.current = new Audio("/music/wedding-agung-and-riska.mp3");
+      audioRef.current = new Audio("/music/wedding-swi-and-ayu.mp3");
       audioRef.current.loop = true;
     }
 
@@ -171,8 +171,6 @@ const App = () => {
             <Mesangih />
             <LocationComponent />
             <CountdownComponent />
-            <Gallery />
-            <AccountNumber />
             <Footer />
           </Suspense>
         )}

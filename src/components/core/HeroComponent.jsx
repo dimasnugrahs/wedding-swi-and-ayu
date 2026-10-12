@@ -4,12 +4,8 @@ import { motion } from "motion/react";
 // Default images mengarah langsung ke folder public/images/
 const DEFAULT_SLIDER_IMAGES = [
   {
-    src: "/images/wedding-agung-and-riska-slider-1.webp",
-    alt: "Foto Prewedding Agung dan Riska Utama",
-  },
-  {
-    src: "/images/wedding-agung-and-riska-slider-2.webp",
-    alt: "Momen Bahagia Agung Riska di Bali",
+    src: "/images/wedding-swi-and-ayu.webp",
+    alt: "Foto Prewedding Swi dan Ayu",
   },
 ];
 
@@ -90,7 +86,7 @@ const HeroComponent = ({
             }}
             className="font-lobster text-4xl md:text-7xl tracking-wide text-white font-light drop-shadow-md py-2"
           >
-            Agung & Riska
+            Swi & Ayu
           </motion.h1>
 
           {/* Teks 3: Tanggal Pernikahan */}
@@ -105,7 +101,7 @@ const HeroComponent = ({
             }}
             className="text-xs md:text-sm tracking-[0.3em] uppercase text-zinc-300 font-light flex items-center justify-center gap-3"
           >
-            <span>21</span>
+            <span>16</span>
             <span className="text-zinc-500/60">•</span>
             <span>Oktober</span>
             <span className="text-zinc-500/60">•</span>

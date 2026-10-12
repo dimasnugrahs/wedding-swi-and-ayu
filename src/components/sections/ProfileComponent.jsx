@@ -33,27 +33,19 @@ const viewportConfig = {
 const profiles = [
   {
     id: "groom",
-    name: "I Gusti Agung Putu Widiana Putra",
-    nickname: "Agung Widiana",
-    role: "Putra Pertama dari Pasangan",
-    father: "I Gusti Agung Winaya",
-    mother: "Luh Sumerasih",
-    instagram: "agung_widiana99",
-    instagramUrl:
-      "https://www.instagram.com/agung_widiana99?igsh=ZHdqeHQxbm1kZmE5",
-    image: "/images/wedding-agung-and-riska-profile-man.webp",
+    name: "I Nyoman Suwipayana",
+    nickname: "Swi",
+    role: "Putra dari Pasangan",
+    father: "Bapak I Nyoman Winata",
+    mother: "Ibu Ni Kompiang Jendri",
   },
   {
     id: "bride",
-    name: "Ni Wayan Riska Riyani",
-    nickname: "Riska Riyani",
-    role: "Putri Pertama dari Pasangan",
-    father: "I Made Mastra",
-    mother: "Ni Nyoman Manis",
-    instagram: "_riskariyanii",
-    instagramUrl:
-      "https://www.instagram.com/_riskariyanii?igsh=MXNmOTIycHAwZ3hiMA==",
-    image: "/images/wedding-agung-and-riska-profile-woman.webp",
+    name: "Ni Made Ayu Sadanie, S.Pd., Gr.",
+    nickname: "Ayu",
+    role: "Putri dari Pasangan",
+    father: "Bapak I Gde Manik Arsa",
+    mother: "Ibu  Yane Magdalena Kilikily (alm)",
   },
 ];
 
